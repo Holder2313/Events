@@ -1,0 +1,8 @@
+@import '../../utils.scss';
+
+.Logo {
+  margin: 22px;
+  @include breakpoint (tablet){
+    margin: 5px;
+  }
+}
